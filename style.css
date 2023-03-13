@@ -209,7 +209,7 @@ body {
 } 
 
 .firstblock__readMore::before {
-    content: url("C:\Users\Asus\Desktop\kata\icon.svg");
+    content: url("img/icon.svg");
     margin-right: 8px;
     vertical-align: top;
 }
