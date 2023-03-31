@@ -226,6 +226,15 @@ body {
 
 } 
 
+.firstblock__additional1,
+.firstblock__additional2 {
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    color: #1B1C21;
+}
+
 .firstblock__readMore::before {
     content: url("C:\Users\Asus\Desktop\kata\icon.svg");
     margin-right: 8px;
