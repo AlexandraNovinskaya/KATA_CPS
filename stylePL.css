@@ -1,0 +1,294 @@
+body {
+    background: #F8F8F8;
+    margin: 0 auto;
+    width: 1120px;
+}
+
+.CPSheader {
+    box-shadow: 0 1px 0 #D9FFF5;
+    background: #FFFFFF;
+}
+
+.CPSheader__upperMenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* overflow-x: auto; */
+
+    height: 88px;
+    
+} 
+
+
+.button {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+
+
+.CPSheader__burgermenu {
+    /* height: 40px;
+    width: 40px; */
+
+    margin-left: 24px;
+    margin-right: 20px;
+    /* margin-right: 16px;   */
+
+    /* border: none;
+    background: none; */
+}    
+
+
+
+.image_but {
+    width: 100%;
+}
+
+
+.CPSheader__logobutt {
+    width: 96.55px;
+    height: 50.81px;
+    /* margin-right: 250px;
+    margin-bottom: 5px;
+    margin-left: 0; */
+}
+
+.CPSheader__divider1 {
+
+    border: 1px solid #EAEAEA;
+    border-radius: 1px; 
+
+    height: 32px; 
+
+    margin-right: 20.73px;
+
+ 
+}
+
+.CPSheader__repairbutt{
+    margin-right: 16px;
+} 
+
+.CPSheader__checkbutt {
+    margin-right: 24px;
+}
+
+
+.CPSheader__divider2 {
+    border: 1px solid #EAEAEA;
+    border-radius: 1px; 
+
+    height: 32px; 
+
+    margin-right: 20px;
+
+}
+
+
+
+.title {
+    /* display: flex;
+    margin-top: 24px; */
+    margin-bottom: 24px;
+    margin-right: 32px;
+} 
+
+
+.title__ser {
+    max-height: 160px;
+    font-family: 'TT Lakes';
+    font-size: 28px;
+    line-height: 40px;
+
+    letter-spacing: -0.6px;
+    margin-top: 42px;
+
+    color: #1B1C21;
+
+    margin-right: 450px;
+
+
+} 
+
+.title__ser::before {
+    content: "";
+    border: 3px solid #41F6D7;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.CPSheader__callbut {
+    margin-left: 226px; 
+}
+
+.CPSheader__callbut,
+.CPSheader__chatbut {
+    margin-right: 16px;
+}
+.CPSheader__profilebut,
+.CPSheader__divider2 {
+    margin-right: 20px;
+} 
+
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style-type: none; 
+    
+    overflow: auto;
+    white-space: nowrap;
+    /* justify-content: space-between; */
+    padding: 4px;
+    overflow-x: auto;
+
+    margin-left: 24px;
+    margin-right: 16px;
+    /* margin-bottom: 32px; */
+}
+
+.options::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.options_item {
+    width: auto;
+    height: auto;
+
+    margin-left: 16px;
+    margin-right: 58px;
+    background: #FFFFFF;
+    flex: 0 0 auto;
+    
+    
+}
+
+.options__link {
+    /* width: 220.16px;
+    height: 24px; */
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    color: #7E7E82;
+
+    white-space: nowrap;
+    padding: 8px 22px;
+    /* padding-left: 16.54px;
+    padding-right: 9.3px; */
+
+    
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; 
+
+}
+
+.options__link:hover {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+
+.firstblock {
+    display: flex;
+    flex-direction: row; 
+    align-items: start;
+    margin-top: 0;
+    /* margin-top: 24px;
+    margin-left: 16px; */
+
+    
+}
+
+.firstblock__text {
+    /* margin-bottom: 10px; */
+    margin-left: 24px;
+    margin-right: 48px;
+    height: 160px;
+    width: 490px;
+
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    color: #1B1C21;
+
+    letter-spacing: 0.2px;
+
+} 
+
+.firstblock__readMore::before {
+    content: url("C:\Users\Asus\Desktop\kata\icon.svg");
+    margin-right: 8px;
+    margin-left: 25px;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+}
+
+.firstblock__readMore {
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21;   
+    text-decoration: none;
+    margin-left: 16px;
+} 
+
+
+.CPSphoto__office {
+    
+    width: 531.35px;
+    height: 307px;
+}  
+
+.CPSheader {
+    display: none;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 32px;   */
+    
+}
+
+.desktop {
+    display: flex;
+    /* align-items: center;
+    justify-content: flex-start;  */
+}
+
+.title__textBut {
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+    text-align: right;
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+    margin-right: 9px;
+    margin-top: 50px;
+
+    white-space: nowrap;
+
+    
+}
+
+.title__repair,
+.title__checkstatus {
+    margin-top: 42px;
+    /* margin-right: 32px; */
+    /* margin-right: 32px; */
+}
