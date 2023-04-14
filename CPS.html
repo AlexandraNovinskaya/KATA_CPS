@@ -6,7 +6,7 @@
   <meta name="description" content="Услуги компании CPS"> 
   <meta name="keywords" content="Ремонт, ремонтируемые бренды, отзывы"> 
   <title>CPS</title>
-<!--   <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="TTLakes\stylesheet.css">
   <link rel="stylesheet" media="screen and (min-width: 320px)" href="styleMOB.css">
   <link rel="stylesheet" media="screen and (min-width: 768px)" href="styleDES.css">
@@ -17,57 +17,52 @@
     <header class="CPSheader">
       <nav class="CPSheader__upperMenu">
 
-
-          <button class="button CPSheader__burgermenu">
-            <img class="image_but" src="img/burger.svg" alt="burger menu"> 
-          </button> 
-
+        <div class="right__menu">
+          <button class="button CPSheader__burgermenu"></button> 
           <div class="mobile CPSheader__divider1"></div>
+          <img class="CPSheader__logobutt" src="C:\Users\Asus\Desktop\kata\Group.svg" alt="logo CPS">
+        </div>
 
-          <img class="CPSheader__logobutt" src="img/Group.svg" alt="logo CPS">
+        <!-- <div class="center_menu"> -->
+          <button class="button CPSheader__callbut"></button> 
+          <button class="button CPSheader__chatbut"></button>    
+          <button class="button CPSheader__profilebut"></button>  
+        <!-- </div> -->
         
-          <button class="button CPSheader__callbut">
-            <img class="image_but" src="img/call.svg" alt="call icon"> 
-          </button> 
-
-          <button class="button CPSheader__chatbut">
-            <img class="image_but" src="img/chat.svg" alt="chat icon"> 
-          </button>    
-
-          <button class="button CPSheader__profilebut">
-            <img class="image_but" src="img/profile.svg" alt="profile icon"> 
-          </button>  
-
+        
+        <!-- <div class="left_menu">  -->
           <div class="CPSheader__divider2"></div>
+          <button class="button CPSheader__repairbutt"></button>
+          <button class="button CPSheader__checkbutt"></button>
+        <!-- </div>   -->
 
-
-          <button class="button CPSheader__repairbutt">
-            <img class="image_but" src="img/repair.svg" alt="repair">
-          </button>
-
-          <button class="button CPSheader__checkbutt">
-            <img class="image_but" src="img/checkstatus.svg" alt="checkstatus">
-          </button>
+          
         
 
       </nav>
     </header>
     
     <div class="title"> 
-      <!-- <img class="title__highlight" src="img/highlight.svg" alt="highlight"> -->
+      <!-- <img class="title__highlight" src="C:\Users\Asus\Desktop\kata\highlight.svg" alt="highlight"> -->
       <h1 class="title__ser">Услуги и сервисы</h1>
 
-      <button class="button title__repairbutt">
-        <img class="title__repair" src="img/repair.svg" alt="repair">
-        <span class="title__textBut">Оставить заявку</span>
-      </button>
+      <div class="leftside__title"> 
 
-      <button class="button title__checkbutt">
-        <img class="title__checkstatus" src="img/checkstatus.svg" alt="checkstatus">
-        <span class="title__textBut">Статус ремонта</span>
-      </button> 
+        <a href="#" class="title__textBut">Оставить заявку</a>
+        <button class="button title__repairbutt">
+        <!-- <label for="title__repairbutt" class="title__textBut1">Оставить заявку</label> -->
+        <!-- <span class="title__textBut">Оставить заявку</span> -->
+        </button>
+
+        <a href="#" class="title__textBut">Статус ремонта</a>
+        <button class="button title__checkbutt">
+        <!-- <label for="title__checkbutt" class="title__textBut2">Статус ремонта</label> -->
+
+        <!-- <span class="title__textBut">Статус ремонта</span> -->
+        </button> 
+      </div>
     </div> 
-    
+
     <div class="sidemenu">
         <ul class="options">
 
@@ -98,29 +93,38 @@
         </ul>
     </div>
 
-    <section class="firstblock"> 
-      <div class="firstblock__blog">
-          <article class="firstblock__text"> 
-              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br>
+    <article class="firstblock"> 
+      <!-- <div class="firstblock__blog"> -->
+          <section class="firstblock__text"> 
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              <br>
+              <br>
               <span class="firstblock__additional1"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>  
               <span class="firstblock__additional2">, что подтверждает большое 
               количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, 
               советуют нас родным и близким.</span>
-          </article>
-          <a href="#" class="firstblock__readMore">Читать далее</a>
-      </div>
+              <br> 
+              <a href="#" class="firstblock__readMore">Читать далее</a>
+
+          </section>
+
+          
+
+          <img class="CPSphoto__office" src="C:\Users\Asus\Desktop\kata\Picture Copy.jpg" alt="CPS picture"> 
+          
+      <!-- </div> -->
       <!-- <button class="firstblock__readMoreBut">
-        <img class="firstblock__readMore" src="img/ReadMore Copy.svg" alt="read more buttom"> 
+        <img class="firstblock__readMore" src="C:\Users\Asus\Desktop\kata\ReadMore Copy.svg" alt="read more buttom"> 
       </button>    -->
       <!-- <button class="firstblock__readMoreBut" type="button">
-        <img class="firstblock__readMore" src="img/expand.png" alt="read more buttom">
+        <img class="firstblock__readMore" src="C:\Users\Asus\Desktop\kata\expand.png" alt="read more buttom">
         Читать далее
       </button> -->
-      <div class="CPSphoto">
-          <img class="CPSphoto__office" src="img/Picture Copy.jpg" alt="CPS picture">
-      </div>
+       <!-- <div class="CPSphoto"> -->
+          <!-- <img class="CPSphoto__office" src="C:\Users\Asus\Desktop\kata\Picture Copy.jpg" alt="CPS picture"> -->
+      <!-- </div>  -->
 
-    </section>
+    </article>
 
       
 
