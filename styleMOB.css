@@ -861,5 +861,5 @@ input[type="radio"] {
 .firms,
 .arrow_firm,
 .ReadMore {
-    display: block;
+    display: none;
 }
