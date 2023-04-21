@@ -204,7 +204,8 @@ body {
 }
 
 .firstblock__text {
-    margin: 0 16px 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     height: 90px;
     width: 288px;
 
@@ -613,3 +614,250 @@ input[type="radio"] {
 .nav_menu {
     overflow: hidden;
 } */
+
+
+.ReadMore_text {
+    margin-left: 16px; 
+    border: none;
+    background-color: #F8F8F8;
+    padding: 0; 
+    /* margin-top: 0; */
+} 
+
+.ReadMore_text::before {
+    content: "Читать далее";
+    /* background-image: url("C:\Users\Asus\Desktop\kata\icon.svg"); */
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21; 
+    text-decoration: none; 
+    /* margin-top: 24px; */
+    padding: 0; 
+
+} 
+
+.active .ReadMore_text::before {
+    content: "Скрыть";
+    margin-top: 46px; 
+}  
+
+.firstblock__text {
+    height: auto;
+    overflow: hidden;
+}
+
+.firstblock__text.active {
+    height: auto;
+}
+
+.firstblock__additional1.read1 {
+    display: inline;
+}
+
+.firstblock__additional2.read2 {
+    display: inline;
+}
+
+.arrow {
+    margin-left: 9px;
+    margin-top: 17px;
+    height: 10px;
+    width: 7px;
+}  
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}  
+
+
+.footer {
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    height: 80px;
+    /* width: 320px; */
+}
+
+.footer__title {
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+
+    color: #7E7E82;
+    padding: 16px;
+}
+
+.swiper {
+    
+    /* width: 320px;
+    height: 80px;   */
+    /* margin-top: 16px; */
+    /* margin-left: 16px; */
+    /* margin-left: 0; */
+    margin-top: 16px;
+    width: 240px;
+    height: 72px; 
+
+    margin-bottom: 38px;
+}
+
+.swiper-wrapper {
+    /* position: absolute; */
+    display: flex;
+    justify-content: flex-start;  
+    /* gap: 16px;   */
+    /* flex-wrap: wrap; */
+    margin-left: 16px;
+    
+    
+}
+
+.swiper-slide {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    /* margin-right: 16px;   */
+
+    width: 240px;
+    height: 72px; 
+
+    text-align: center; 
+
+    /* padding-left: 16px;
+    padding-top: 16px; */
+
+
+    /* padding: 16px; */
+
+}
+
+.swiper-pagination {
+    margin-top: 16px;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #DDDDDD;
+}
+
+.swiper-pagination-bullet-active {
+	background: #B5B6BC;
+}
+
+.swiper-container{
+    position: relative;
+    width: 70%;
+    margin: 0;
+}
+
+.swiper-pagination{
+    bottom: -32px!important;
+}
+
+.firms__logo {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/* .logo_hp,
+.logo_app {
+    margin: -10px;
+} */
+
+.nxt_btn {
+    height: 40px;
+    width: 40px;
+    /* padding: 16px; */
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+
+}
+
+.logo_len {
+    width: 108px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 44px;
+}
+
+.logo_sm {
+    width: 116px;
+    height: 39px;
+    margin-left: 16px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 36px;
+}
+
+.logo_app {
+    width: 44px;
+    height: 44px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    margin-right: 108px;
+}
+
+.logo_vs {
+    width: 128px;
+    height: 21px;
+    margin-left: 14px;
+    margin-top: 26px;
+    margin-bottom: 25px;
+    margin-right: 42px;
+}
+
+.logo_bo {
+    width: 128px;
+    height: 29px;
+    margin-left: 16px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-right: 24px;
+}
+
+.logo_hp {
+    width: 52px;
+    height: 52px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 106px;
+}
+
+.logo_acer {
+    width: 94px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 58px;
+}
+
+.logo_sony {
+    width: 128px;
+    height: 26px;
+    margin-left: 14px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: 42px;
+}
+
+
+.footer__options__link {
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.firms {
+    display: none;
+}

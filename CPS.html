@@ -9,11 +9,77 @@
   <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="TTLakes\stylesheet.css">
   <link rel="stylesheet" media="screen and (min-width: 320px)" href="styleMOB.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
   <link rel="stylesheet" media="screen and (min-width: 768px)" href="styleDES.css">
   <link rel="stylesheet" media="screen and (min-width: 1120px)" href="stylePL.css">
 </head>
 
 <body>
+
+  <div class="menu">
+
+    <div class="sidemenu_header">
+      <img class="logo" src="C:\Users\Asus\Desktop\kata\Group.svg" alt="logo">
+      <button class="button sidemenu_search"></button> 
+    </div>
+
+    <nav class="nav_menu">
+      <h1 class="nav_header">Ремонт техники</h1>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Услуги и сервисы</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Корпоративным клиентам</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Продавцам техники</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Партнерам</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Производителям</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Наши сервисные центры</a>
+      </li>
+
+      <li class="nav_items">
+          <a href="#" class="nav_link">Контакты</a>
+      </li>
+
+    </nav>
+
+    <div class="bottom__menu">
+
+      <div class="ad_buttons"> 
+          <button class="button call__but"></button> 
+          <button class="button chat__but"></button> 
+          <button class="button prof__but"></button> 
+      </div>
+
+      <a class="email" href = "mailto: mail@cps.com">mail@cps.com</a> <br>
+      <a class="phone" href="tel:88008908900">8 800 890 8900</a>
+   
+    </div>
+
+    <form class="lang-switch" method="get">
+      <label class="btn"><input type="radio" name="lang_sw" value="ru">RU</label>
+      <label class="btn"><input type="radio" name="lang_sw" value="en">EN</label>
+      <label class="btn"><input type="radio" name="lang_sw" value="ch">CH</label>
+    </form>
+
+  </div>    
+
+
+  <div class="blur"></div> 
+
     <header class="CPSheader">
       <nav class="CPSheader__upperMenu">
 
@@ -26,173 +92,47 @@
           </ul>
         </div> -->
 
+        
+        
         <div id="right__menu" >
           <div class="burger"><span></span></div>
-            <div class="menu">
-
-              <div class="sidemenu_header">
-                <img class="logo" src="img/Group.svg" alt="logo">
-                <button class="button sidemenu_search"></button> 
-              </div>
-    
-              <nav class="nav_menu">
-                <h1 class="nav_header">Ремонт техники</h1>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Услуги и сервисы</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Корпоративным клиентам</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Продавцам техники</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Партнерам</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Производителям</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Наши сервисные центры</a>
-                </li>
-    
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Контакты</a>
-                </li>
-    
-              </nav>
-    
-              <div class="bottom__menu">
-    
-                <div class="ad_buttons"> 
-                    <button class="button call__but"></button> 
-                    <button class="button chat__but"></button> 
-                    <button class="button prof__but"></button> 
-                </div>
-    
-                <a class="email" href = "mailto: mail@cps.com">mail@cps.com</a> <br>
-                <a class="phone" href="tel:88008908900">8 800 890 8900</a>
-             
-              </div>
-    
-              <form class="lang-switch" method="get">
-                <label class="btn"><input type="radio" name="lang_sw" value="ru">RU</label>
-                <label class="btn"><input type="radio" name="lang_sw" value="en">EN</label>
-                <label class="btn"><input type="radio" name="lang_sw" value="ch">CH</label>
-              </form>
-    
-            </div>    
-
-
-
-          <div class="mobile CPSheader__divider1"></div>
-          <img class="CPSheader__logobutt" src="img/Group.svg" alt="logo CPS">
-        </div>
+            <div class="mobile CPSheader__divider1"></div>
+            <img class="CPSheader__logobutt" src="C:\Users\Asus\Desktop\kata\Group.svg" alt="logo CPS">
+          
 
         
-          <button class="button CPSheader__callbut"></button> 
-          <button class="button CPSheader__chatbut"></button>    
-          <button class="button CPSheader__profilebut"></button>  
+            <button class="button CPSheader__callbut"></button> 
+            <button class="button CPSheader__chatbut"></button>    
+            <button class="button CPSheader__profilebut"></button>  
         
         
         
-          <div class="CPSheader__divider2"></div>
-          <button class="button CPSheader__repairbutt"></button>
-          <button class="button CPSheader__checkbutt"></button>
+            <div class="CPSheader__divider2"></div>
+            <button class="button CPSheader__repairbutt"></button>
+            <button class="button CPSheader__checkbutt"></button>
 
 
           
         
+          <!-- </div>   -->
+        </nav>
 
-      </nav>
 
-
-      <!-- <div class="sidemenu" id="nav">
-
-          <button id="btnn"></button> 
-        <div class="sidemenu_header">
-
-            <!-- <div class="rightside_menu"> -->
-                <!-- <button id="btnn"></button>  -->
-                <!-- <img class="logo" src="C:\Users\Asus\Desktop\kata\Group.svg" alt="logo"> -->
-            <!-- </div> -->
-
-            
-            <!-- <button class="button sidemenu_search"></button> 
-
-        </div>
-
-        <nav class="nav_menu">
-            <h1 class="nav_header">Ремонт техники</h1>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Услуги и сервисы</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Корпоративным клиентам</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Продавцам техники</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Партнерам</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Производителям</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Наши сервисные центры</a>
-            </li>
-
-            <li class="nav_items">
-                <a href="#" class="nav_link">Контакты</a>
-            </li> -->
-
-        <!-- </nav>
-
-        <div class="bottom__menu">
-
-            <div class="ad_buttons"> 
-                <button class="button call__but"></button> 
-                <button class="button chat__but"></button>  -->
-                <!-- <button class="button prof__but"></button> 
-            </div>
-
-            <a class="email" href = "mailto: mail@cps.com">mail@cps.com</a> <br>
-            <a class="phone" href="tel:88008908900">8 800 890 8900</a>
-         
-        </div> -->
-
-        <!-- <form class="lang-switch" method="get">
-            <label class="btn"><input type="radio" name="lang_sw" value="ru">RU</label>
-            <label class="btn"><input type="radio" name="lang_sw" value="en">EN</label>
-            <label class="btn"><input type="radio" name="lang_sw" value="ch">CH</label>
-        </form>
-
-    </div>     --> 
+      
     
 
-    </header>
+        </header>
+
+ 
     
-    <div class="title"> 
+        <div class="title"> 
       <!-- <img class="title__highlight" src="C:\Users\Asus\Desktop\kata\highlight.svg" alt="highlight"> -->
-      <h1 class="title__ser">Услуги и сервисы</h1>
+        <h1 class="title__ser">Услуги и сервисы</h1>
 
-      <div class="leftside__title"> 
+        <div class="leftside__title"> 
 
-        <a href="#" class="title__textBut">Оставить заявку</a>
-        <button class="button title__repairbutt">
+          <a href="#" class="title__textBut">Оставить заявку</a>
+          <button class="button title__repairbutt">
         <!-- <label for="title__repairbutt" class="title__textBut1">Оставить заявку</label> -->
         <!-- <span class="title__textBut">Оставить заявку</span> -->
         </button>
@@ -203,8 +143,8 @@
 
         <!-- <span class="title__textBut">Статус ремонта</span> -->
         </button> 
-      </div>
-    </div> 
+        </div>
+      </div> 
 
     <div class="sidemenu">
         <ul class="options">
@@ -240,20 +180,25 @@
       <!-- <div class="firstblock__blog"> -->
           <section class="firstblock__text"> 
               Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-              <br>
-              <br>
-              <span class="firstblock__additional1"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>  
+              <span class="firstblock__additional1"> 
+                <br> 
+                <br> 
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>  
               <span class="firstblock__additional2">, что подтверждает большое 
               количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, 
               советуют нас родным и близким.</span>
               <br> 
-              <a href="#" class="firstblock__readMore">Читать далее</a>
+              <!-- <a href="#" class="firstblock__readMore">Читать далее</a> -->
+              
+              <img class="arrow" src="C:\Users\Asus\Desktop\kata\icon.svg" alt="arrow"> 
+              <button class="ReadMore_text"></button>
 
+              
           </section>
 
           
 
-          <img class="CPSphoto__office" src="img/PictureCopy.jpg" alt="CPS picture"> 
+          <img class="CPSphoto__office" src="C:\Users\Asus\Desktop\kata\PictureCopy.jpg" alt="CPS picture"> 
           
       <!-- </div> -->
       <!-- <button class="firstblock__readMoreBut">
@@ -269,8 +214,151 @@
 
     </article>
 
-      
-<script src="blockmenu.js"></script>
+    
+  <header class="footer">
+      <h1 class="footer__title">Ремонт техники различных брендов</h1>
+  </header>
   
+
+  <!-- Slider main container -->
+
+<div class="swiper-container">        
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="firms__logo"> 
+        <img class="logo_len" src="C:\Users\Asus\Desktop\kata\lenovo.svg" alt="Lenovo">
+        <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="firms__logo">
+      <img class="logo_sm" src="C:\Users\Asus\Desktop\kata\sams.svg" alt="samsumg">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+    </div> 
+    </div>
+
+    <div class="swiper-slide">
+      <div class="firms__logo">
+      <img class="logo_app" src="C:\Users\Asus\Desktop\kata\apple.svg" alt="apple">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="firms__logo">
+      <img class="logo_bo" src="C:\Users\Asus\Desktop\kata\bosch.svg" alt="bosch">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+    </div>
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="firms__logo">
+      <img class="logo_hp" src="C:\Users\Asus\Desktop\kata\hp.svg" alt="hp">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+    </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="firms__logo">
+      <img class="logo_acer" src="C:\Users\Asus\Desktop\kata\acer.svg" alt="acer">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+    </div> 
+    </div>
+
+
+
+
+
+  </div>
+  <!-- If we need pagination -->
+
+  <!-- If we need navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div> -->
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+<div class="swiper-pagination"></div>
+</div>
+
+<div class="firms">
+  <ul class="footer__options">
+
+    <li class="footer__options__item">
+      <img class="logo_len" src="C:\Users\Asus\Desktop\kata\lenovo.svg" alt="Lenovo">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_sm" src="C:\Users\Asus\Desktop\kata\sams.svg" alt="samsumg">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_app" src="C:\Users\Asus\Desktop\kata\apple.svg" alt="apple">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_vs" src="C:\Users\Asus\Desktop\kata\vs.svg" alt="vs">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_bo" src="C:\Users\Asus\Desktop\kata\bosch.svg" alt="bosch">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_hp" src="C:\Users\Asus\Desktop\kata\hp.svg" alt="hp">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_acer" src="C:\Users\Asus\Desktop\kata\acer.svg" alt="acer">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+      <img class="logo_sony" src="C:\Users\Asus\Desktop\kata\sony.svg" alt="sony">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+
+
+
+
+  <li class="footer__options__item">
+      <img class="logo_len" src="C:\Users\Asus\Desktop\kata\lenovo.svg" alt="Lenovo">
+      <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+    <img class="logo_sm" src="C:\Users\Asus\Desktop\kata\sams.svg" alt="samsumg">
+    <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  <li class="footer__options__item">
+    <img class="logo_app" src="C:\Users\Asus\Desktop\kata\apple.svg" alt="apple">
+    <a href="#" class="footer__options__link"><img class="nxt_btn" src="C:\Users\Asus\Desktop\kata\go.svg" alt="next button"></a>
+  </li>
+
+  </ul>
+
+  
+</div>
+
+<img class="arrow_firm" src="C:\Users\Asus\Desktop\kata\icon.svg" alt="arrow"> 
+<button class="ReadMore"></button>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="C:\Users\Asus\Desktop\kata\blockmenu.js"></script>
 </body>
 </html>

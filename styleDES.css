@@ -289,7 +289,7 @@ body {
 
 } 
 
-.firstblock__readMore::before {
+/* .firstblock__readMore::before {
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='11' fill='none'%3e%3cpath fill='%2341F6D7' fill-rule='evenodd' d='M6.5.5 4 3 1.5.5a.707.707 0 0 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 1.5a.707.707 0 0 0-1-1Zm0 6L4 9 1.5 6.5a.707.707 0 1 0-1 1l2.793 2.793a1 1 0 0 0 1.414 0L7.5 7.5a.707.707 0 0 0-1-1Z' clip-rule='evenodd'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: center;
@@ -298,9 +298,9 @@ body {
     vertical-align: top;
     width: 24px;
     height: 24px; */
-}
+/* } */
 
-.firstblock__readMore {
+/* .firstblock__readMore {
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;
@@ -308,7 +308,7 @@ body {
     text-decoration: none;
     margin-left: 16px;
     font-weight: 500;
-} 
+}  */
 
 
 
@@ -435,8 +435,10 @@ body {
         16px 0px 52px rgba(14, 24, 80, 0.2);
     /* overflow-y: hidden; */
     /* backdrop-filter: blur(5px); */
-
+    z-index: 9;
 }
+
+
 
 /* body.blur {
     backdrop-filter: blur(5px);
@@ -450,13 +452,29 @@ body {
     filter: none;
 } */
 
-body.blur:not(.menu) {
+/* body::not(.menu.animate) {
     filter: blur(5px);
-}
+} */
 
 /* body.blur .menu {
     filter: none;
 } */
+
+
+.blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    z-index: 5;
+    display: none;
+}
+
+.blur.open {
+    display: block;
+}
+
+
 
 .sidemenu-header {
     display: flex;
@@ -680,3 +698,229 @@ input[type="radio"] {
 .nav_menu {
     overflow: hidden;
 } */
+
+
+.ReadMore_text {
+    margin-left: 16px; 
+    border: none;
+    background-color: #F8F8F8;
+    padding: 0; 
+    cursor: pointer;
+
+} 
+
+.ReadMore_text::before {
+    content: "Читать далее";
+    /* background-image: url("C:\Users\Asus\Desktop\kata\icon.svg"); */
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21; 
+    text-decoration: none; 
+    /* margin-top: 24px; */
+    padding: 0; 
+
+} 
+
+.active .ReadMore_text::before {
+    content: "Скрыть";
+    margin-top: 46px; 
+}  
+
+.firstblock__text {
+    height: 200px;
+    overflow: hidden;
+}
+
+.firstblock__text.active {
+    height: auto;
+}
+
+.firstblock__additional2.read2 {
+    display: inline;
+}
+
+.arrow {
+    margin-left: 9px;
+    margin-top: 17px;
+    height: 10px;
+    width: 7px;
+}  
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}  
+
+.swiper-container {
+    display: none;
+}
+
+
+.footer {
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    height: 56px;
+    width: 768px;
+}
+
+.footer__title {
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+
+
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+
+    color: #7E7E82;
+    padding: 16px;
+}
+
+/* .firmsmenu {
+    background: #F2F2F2;
+} */
+.firms {
+    margin: 0;
+    /* margin-bottom: 24px; */
+}
+
+.footer__options {
+    padding-left: 24px;
+    padding-top: 24px;
+    margin: 0; 
+
+    display: grid;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+    grid-template-columns: repeat(3, 224px);
+    grid-template-rows: repeat(3, 72px);
+    /* gap: 24px; */
+    /* margin-bottom: 24px; */
+    row-gap: 16px;
+    column-gap: 32px;
+}
+
+.footer__options__item {
+    display: flex;
+    justify-content: flex-start; 
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    list-style-type: none; 
+}
+
+.nxt_btn {
+    height: 40px;
+    width: 40px;
+    /* padding: 16px; */
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
+
+}
+
+.logo_len {
+    width: 108px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 44px;
+}
+
+.logo_sm {
+    width: 116px;
+    height: 39px;
+    margin-left: 16px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 36px;
+}
+
+.logo_app {
+    width: 44px;
+    height: 44px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    margin-right: 108px;
+}
+
+.logo_bo {
+    width: 128px;
+    height: 29px;
+    margin-left: 16px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-right: 24px;
+}
+
+.logo_hp {
+    width: 52px;
+    height: 52px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 106px;
+}
+
+.logo_acer {
+    width: 94px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 58px;
+}
+
+.ReadMore {
+    margin-top: 8px;
+    margin-left: 17px;
+    border: none;
+    background-color: #F8F8F8;
+    margin-bottom: 34px;
+    cursor: pointer;
+} 
+
+.ReadMore::before {
+    content: "Показать все";
+    /* background-image: url("C:\Users\Asus\Desktop\kata\icon.svg"); */
+    font-family: 'TT Lakes';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1C21; 
+    text-decoration: none;
+    /* margin-top: 24px; */
+    /* padding: 0; */
+
+}
+
+.active_firm .ReadMore::before {
+    content: "Скрыть";
+    /* margin-top: 46px; */
+    
+}
+
+.footer__options {
+    height: 160px;
+    overflow: hidden;
+}
+
+.active_firm .footer__options {
+    height: auto;
+}
+
+.arrow_firm {
+    margin-left: 33px;
+}
+
+.arrow_firm.rotate_firm {
+    transform: rotate(180deg);
+    
+}
+
+.firms {
+    display: block;
+}
