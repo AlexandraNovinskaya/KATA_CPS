@@ -858,7 +858,10 @@ input[type="radio"] {
     margin-right: 16px;
 }
 
-.firms,
+.firms{
+    display: none;
+}
+
 .arrow_firm,
 .ReadMore {
     display: none;
