@@ -64,19 +64,24 @@ body {
 .CPSheader__logobutt {
     width: 96.55px;
     height: 50.81px;
+    margin-left: 0;
+    top: 19px;
     /* margin-right: 250px;
     margin-bottom: 5px;
     margin-left: 0; */
 }
 
 .CPSheader__divider1 {
-
+    display: block;
     border: 1px solid #EAEAEA;
     border-radius: 1px; 
 
     height: 32px; 
 
-    /* margin-right: 20.73px; */
+    margin: 28px;
+    margin-left: 84px;
+    margin-right: 20px;
+    /* margin-right: 20px; */
 
  
 }
@@ -921,6 +926,12 @@ input[type="radio"] {
     
 }
 
+
 .firms {
     display: block;
+}
+
+.arrow_firm,
+.ReadMore {
+    display: inline;
 }

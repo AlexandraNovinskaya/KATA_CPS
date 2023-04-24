@@ -30,9 +30,9 @@ body {
     background: none;
 } */
 
-#right__menu {
+.right__menu {
     display: flex;
-    margin-right: 17px;
+    /* margin-right: 17px; */
 }
 
 
@@ -47,14 +47,15 @@ body {
     
 }    
 
-.image_but {
+/* .image_but {
     width: 100%;
-}
+} */
 
 
 .CPSheader__logobutt {
     margin-bottom: 5px;
     margin-left: 73px;
+    top: 19px;
     /* margin-right: 16.73px; */
 
     width: 90px;
@@ -77,7 +78,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #FF3E79; 
-    border-radius: 20px;
+    border-radius: 20px; 
+    margin-right: 16px;
+  
 }
 
 
@@ -87,6 +90,7 @@ body {
     background-position: center;
     background-color: #FF3E79; 
     border-radius: 20px;
+    margin-right: 16px;
     
 }
 
@@ -100,6 +104,8 @@ body {
 
     height: 32px; 
 
+    margin: 28px;
+    margin-left: 17px;
     margin-right: 20px;
     /* margin-left: 16.73px; */
 }
@@ -288,6 +294,7 @@ body {
     margin-left: 16px;
     margin-right: 17px;
     z-index: 10;
+    top: 24px; 
     
     
 }
@@ -413,13 +420,12 @@ body {
     /* margin-right: 28px;   */
 }
 
-.button {
-    /* display: block;  */
+.button { 
     width: 40px;
     height: 40px;
     padding: 0;
     border: none;
-    background: none; 
+    /* background: none;  */
     /* margin-top: 23px; */
     /* margin-right: 24px; */
 }
@@ -622,6 +628,7 @@ input[type="radio"] {
     background-color: #F8F8F8;
     padding: 0; 
     /* margin-top: 0; */
+    cursor: pointer;
 } 
 
 .ReadMore_text::before {
@@ -692,6 +699,11 @@ input[type="radio"] {
     padding: 16px;
 }
 
+.swiper-container {
+    display: block;
+    z-index: -1;
+}
+
 .swiper {
     
     /* width: 320px;
@@ -704,6 +716,7 @@ input[type="radio"] {
     height: 72px; 
 
     margin-bottom: 38px;
+    
 }
 
 .swiper-wrapper {
@@ -713,7 +726,7 @@ input[type="radio"] {
     /* gap: 16px;   */
     /* flex-wrap: wrap; */
     margin-left: 16px;
-    
+    z-index: 1;
     
 }
 
@@ -731,7 +744,7 @@ input[type="radio"] {
 
     /* padding-left: 16px;
     padding-top: 16px; */
-
+    z-index: 1;
 
     /* padding: 16px; */
 
@@ -739,6 +752,7 @@ input[type="radio"] {
 
 .swiper-pagination {
     margin-top: 16px;
+    
 }
 
 .swiper-pagination-bullet {
@@ -759,7 +773,7 @@ input[type="radio"] {
 
 .swiper-pagination{
     bottom: -32px!important;
-}
+} 
 
 .firms__logo {
     display: flex;
@@ -858,10 +872,7 @@ input[type="radio"] {
     margin-right: 16px;
 }
 
-.firms{
-    display: none;
-}
-
+.firms,
 .arrow_firm,
 .ReadMore {
     display: none;

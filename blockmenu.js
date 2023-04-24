@@ -60,7 +60,7 @@ const swiper = new Swiper('.swiper', {
     // scrollbar: {
     //   el: '.swiper-scrollbar',
     // },
-  });
+});
 
 let more_firm = document.querySelectorAll(".ReadMore");
 let arr_firm = document.querySelector(".arrow_firm");
